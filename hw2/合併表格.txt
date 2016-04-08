@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+  <table cellspacing="0" cellpadding="5" border="1">
+    <colgroup>
+      <col style="width:100px" /></col>
+    </colgroup>
+  <thead>
+    <tr>
+      <th>Дж¦м1</th>
+      <th>Дж¦м2</th>
+      <th>Дж¦м3</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>cell1.1</td> 
+      <td colspan="2" align="center">cell2.1</td>
+    </tr>
+    <tr>
+      <td>cell1.2</td>
+      <td rowspan="2">cell2.2</td>
+      <td>cell3.2</td>
+    </tr>
+    <tr>
+      <td>cell1.3</td>
+      <td>cell3.3</td>
+    </tr>
+  </tbody>
+  </table>
+  </body>
+</html>

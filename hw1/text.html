@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>html</title>
+</head>
+
+<body>
+    <h1>環境安裝</h1>
+    <p>1.下載sublime text3</p>
+    <p>2.安裝node.js</p>
+    <p>3.按下 ctrl+` <a href="0.jpg">點我看圖</a> 貼上以下這段程式碼</p>
+    <p>import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)</p>
+    <h1>必裝package</h1>
+    <p>使用方法 : ctrl+shift+p 叫出 package control 輸入cpi</p>
+    <a href="1.png">點我看圖</a>
+    <p>輸入htmlcssjs</p>
+    <a href="2.png">點我看圖</a>
+    <p>用上列方法再輸入emmet</p>
+    <h1>基本標籤</h1>
+    <p>標題: 輸入
+        <+h 按下enter </p>
+            <a href="5.png">點我看圖</a>
+            <p>段落: 輸入
+                <+p 按下enter</p>
+                    <a href="6.png">點我看圖</a>
+                    <p>連結: 輸入
+                        <+a 按下enter</p>
+                            <a href="7.png">點我看圖</a>
+                            <h1>透過emmet快速輸入!</h1>
+                            <p>1.產生重複的標籤</p>
+                            <p>輸入 ＜p*3 之後 按下tab鍵</p>
+                            <p>即可產稱三組一樣的段落標籤</p>
+                            <p>2.產生數對上下關係的標籤</p>
+                            <p>輸入（h1+p）*4 按下tab</p>
+                            <p>即可產生4對標題及段落標籤</p>
+                            <p>3.產生廢字</p>
+                            <p>輸入lorem之後按下tab 即可產生一堆廢文字!</p>
+                            <a href="8.png">點我看圖</a>
+                            <p>lorem5 + tab 只會產生5個廢字</p>
+</body>
+
+</html>
