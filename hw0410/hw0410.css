@@ -1,0 +1,287 @@
+* {
+    box-sizing: border-box;
+}
+
+.col-md-1 {
+    width: calc(100%/12);
+}
+
+.col-md-2 {
+    width: calc(100%*2/12);
+}
+
+.col-md-3 {
+    width: calc(100%*3/12);
+}
+
+.col-md-4 {
+    width: calc(100%*4/12);
+}
+
+.col-md-5 {
+    width: calc(100%*5/12);
+}
+
+.col-md-6 {
+    width: calc(100%*6/12);
+}
+
+.col-md-7 {
+    width: calc(100%*7/12);
+}
+
+.col-md-8 {
+    width: calc(100%*8/12);
+}
+
+.col-md-9 {
+    width: calc(100%*9/12);
+}
+
+.col-md-10 {
+    width: calc(100%*10/12);
+}
+
+.col-md-11 {
+    width: calc(100%*11/12);
+}
+
+.col-md-12 {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    z-index: 1030;
+    background-color: white;
+}
+
+.container ul {
+    padding-left: 0;
+}
+
+.container li {
+    display: inline-block;
+    padding: 15px;
+    padding-left: 0;
+}
+
+.pull-left {
+    color: #EB3812;
+    text-align: left;
+    font-size: 18px;
+}
+
+.pull-right {
+    font-size: 13px;
+}
+
+.container1 {
+    background-image: url(header.jpg);
+    height: 919px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*padding-left: 10%;*/
+    width: 100%;
+}
+
+.box2 {
+    /*background-color: #daa;*/
+    text-align: center;
+    width: 80%;
+    padding-top: 290px;
+    margin: 0 auto;
+    color: white;
+}
+
+.box1 {
+    /*background-color: #777;*/
+}
+
+.box1 h1 {
+    font-size: 65px;
+}
+
+hr {
+    width: 50px;
+    border-color: #F05F40;
+    border-width: 3px;
+}
+
+.box3 {
+    /*background-color: #dad;*/
+    width: 70%;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.box4 {
+    /*按鈕*/
+    height: 50px;
+    width: 172px;
+    background-color: #F05F40;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 50px;
+    padding: 15px 20px 15px 20px;
+    font-size: 14px;
+}
+
+.container2 {
+    height: 418px;
+    width: 100%;
+    background-color: #F05F40;
+}
+
+.box5 {
+    /*background-color: #daa;*/
+    text-align: center;
+    width: 80%;
+    padding-top: 100px;
+    padding-left: 0;
+    margin: 0 auto;
+    color: white;
+}
+
+.box6 {
+    /*background-color: #dad;*/
+    margin: 0 auto;
+    font-size: 30px;
+    width: 90%;
+}
+
+.container2 hr {
+    width: 50px;
+    border-color: white;
+    border-width: 3px;
+}
+
+.box7 {
+    /*按鈕*/
+    height: 50px;
+    width: 172px;
+    background-color: white;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 50px;
+    padding: 15px 20px 15px 20px;
+    font-size: 14px;
+    color: black;
+}
+
+.container3 {
+    height: 456px;
+    width: 100%;
+    background-color: white;
+    color: black;
+}
+
+.container3 hr {
+    width: 50px;
+    border-color: #F05F40;
+    border-width: 3px;
+}
+
+.box8 {
+    /* background-color: #daa;*/
+    /* max-height: 56px;
+    max-width: 64px;*/
+}
+
+.box9 {
+    text-align: center;
+    width: 90%;
+    padding-top: 100px;
+    padding-left: 0;
+    margin-left: 5%;
+}
+
+.box8 img {
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 64px;
+    display: inline-block;
+}
+
+.box10 {
+    font-size: 24px;
+}
+
+.box11 {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #777777;
+}
+
+.box12 {
+    /*background-color: #daa;*/
+    height: 452px;
+    padding-left: 0;
+    padding-right: 0;
+    display: inline-block;
+}
+
+.container4 {
+    height: 452px;
+    /*background-color: #dad;*/
+}
+
+.container4 img {
+    height: 50%;
+    width: 100%;
+}
+
+.container5 {
+    height: 203px;
+    background-color: #222222;
+}
+
+.box13 {
+    /*background-color: #daa;*/
+    text-align: center;
+    width: 80%;
+    padding-top: 50px;
+    padding-left: 0;
+    margin: 0 auto;
+    color: white;
+}
+
+.box14 {
+    /*按鈕*/
+    height: 50px;
+    width: 172px;
+    background-color: white;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15px;
+    border-radius: 50px;
+    padding: 15px 20px 15px 20px;
+    font-size: 14px;
+    color: black;
+}
+
+.container6 {
+    height: 430px;
+}
+
+.box15 {
+    /*background-color: #dda;*/
+    padding-top: 15px;
+    text-align: center;
+}
+
+.box15 img {
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50px;
+    display: inline-block;
+}
+
+.box15 p {
+    padding-top: 5px;
+}
